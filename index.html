@@ -194,6 +194,35 @@ ul li::before{
     .wrapper{flex-direction:column;}
 }
 
+@media (max-width: 768px){
+
+    .wrapper{
+        flex-direction: column;
+    }
+
+    .sidebar{
+        width: 100%;
+        text-align: center;
+    }
+
+    .main{
+        padding: 15px;
+    }
+
+    .grid{
+        grid-template-columns: 1fr;
+    }
+
+    .navbar{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .icon{
+        width: 50px;
+    }
+}
+
 </style>
 </head>
 
