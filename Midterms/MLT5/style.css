@@ -1,0 +1,100 @@
+body{
+    margin: 100px;
+    padding: 0;
+    background: linear-gradient(
+        -45deg,
+        #f6bfdd,
+        #fcd3e8,
+        #d98290,
+        #f8c5dd
+    );
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+}
+
+/* body gradient animation */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+h2{
+    font-family: "Fjalla One", "consolas", sans-serif;
+    color: rgb(191, 91, 112);
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(134, 58, 71);
+}
+
+p, ul, li, td, th{
+    color: rgb(134, 58, 71);
+}
+
+#main-container{
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid #c56a8c;
+
+    background: linear-gradient(
+        -45deg,
+        #9d3e6f,
+        #ffafda,
+        #fccce2,
+        #fcd3e8,
+        #ffafda
+    );
+    background-size: 400% 400%;
+    animation: gradientCard 10s ease infinite;
+
+    box-shadow: 0 15px 35px rgba(165, 69, 104, 0.35);
+}
+
+@keyframes gradientCard {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.text{
+    color: rgb(134, 71, 99);
+}
+
+#contact{
+    text-align: center;
+    line-height: 12px;
+    font-size: 12;
+}
+
+#reference{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#reference th, #reference td {
+    border: 5px solid rgb(165, 69, 104);
+    padding: 8px;
+}
+
+#navigation{
+    text-align: center;
+    font-size: 20px;
+}
+
+a:link {
+    color: rgb(122, 28, 72);
+}
+
+a:visited {
+    color: rgb(227, 71, 138);
+}
+
+a:hover {
+    color: rgb(231, 159, 176);
+}
+
+a:active {
+    color: rgb(193, 103, 118);
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm Lab Task 6</title>
+
+<style>
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    width: 700px;
+    margin: auto;
+}
+
+h2, h3{
+    color: rgb(32, 0, 9);
+}
+
+.textbox{
+    display: block;   
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 1px solid #a33561;
+}
+
+.box{
+    border: 1px solid #a33561;
+    padding: 10px;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.text{
+    display: inline-block;
+    width: 350px;
+    vertical-align: middle;
+}
+
+.buttons{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google-logo{
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+}
+
+.google-search{
+    display: block;
+    width: 400px;
+    margin: auto;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+.name{
+    width: 48%;
+    padding: 12px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #cfcfcf;
+    box-sizing: border-box;
+}
+
+.name:last-child{
+    margin-left: 4%;
+}
+
+.mail{
+    width: 100%;
+    padding: 8px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #cfcfcf;
+    box-sizing: border-box;
+}
+
+.signup{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background: #b86888;
+    cursor: pointer;
+}
+
+.title{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.uber{
+    width: 100%;
+    padding: 8px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.button{
+    font-size: 0;
+    padding: 6px;
+    border: none;
+}
+
+.btn{
+    width: 50%;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    font-size: 14px;
+    cursor: pointer
+}
+
+.request{
+    background: rgb(181, 103, 128);
+    color: rgb(246, 243, 244);
+}
+
+.schedule{
+    background: #fcc9c9;
+    color: rgb(40, 1, 17);
+}
+
+    </style>
+</head>
+
+<body>
+
+    <h2 style="text-align: center;">Midterm Lab Task 6: Display Property</h2>
+    <hr>
+
+    <div class="container">
+
+        <h3>1. Create 2 text boxes and put them on separate lines (using display: block)</h3>
+
+        <input type="text" class="textbox" placeholder="Name">
+        <input type="email" class="textbox" placeholder="Email">
+
+
+        <h3>2. Create a paragraph and 2 buttons and place them on the same line (using width, display: inline-block and vertical-align: middle)</h3>
+
+        <div class="box">
+            <div class="text">
+                Thanks for chatting with our customer support.
+                Would you like to take our quick survey?
+            </div>
+
+            <div class="buttons">
+                <button>Yes</button>
+                <button>No</button>
+            </div>
+        </div>
+
+
+        <h3>3. Download Google’s logo and create the google.com search form</h3>
+            <img src="logo.png" class="google-logo">
+            <input type="text" class="google-search" placeholder="Search Google or type a URL">
+
+
+        <h3>4. Sign Up Form</h3>
+        <form action="LabTask6-1.html" method="get">
+            <input type="text" class="name" placeholder="First name">
+            <input type="text" class="name" placeholder="Last name">
+            <input type="email" class="mail" placeholder="Email">
+                <button class="signup">Sign Up</button>
+        </form>
+
+        <h3>5. Uber Request-a-Ride Form</h3>
+
+        <form action="LabTask6-1.html" method="get">
+            <div class="title">Request a ride now</div>
+                <input type="text" class="uber" placeholder="Enter pickup location">
+                <input type="text" class="uber" placeholder="Enter destination">
+            <div class="button">
+                <button class="btn request">Request now</button>
+                <button class="btn schedule">Schedule for later</button>
+            </div>
+        </form>
+    </div>
+
+<hr>
+<h2 style="text-align: center;">Source Code</h2>
+    <img src="code.png" width="1000px" height="1200px"  style="display:block; margin:auto;">
+</body>
+</html>
